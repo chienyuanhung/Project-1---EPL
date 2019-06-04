@@ -5,7 +5,7 @@
   * Crime data, City of Manchester, UK, August, 2018
     https://www.kaggle.com/pratikbu/great-manchester-crime
   * Game Data, Premier League 2018-2019 season
-    https:/datahub.io//collections/football
+    https://datahub.io/sports-data/english-premier-league#resource-english-premier-league_zip
 
 * data cleaning
    crime data: turned into Pandas DataFrame from a sql file, 5000 crimes were recorded bewteen Ausust 1 and 30 in 2018
