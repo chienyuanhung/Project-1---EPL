@@ -52,6 +52,22 @@
 
     * Center of the city of Manchester
     ![](Images/Center_of_Manchester_3km.png)
-      * Crime number at the center of the city went down on 8/10 and 8/19, but went up on8/27
+      * Crime number at the center of the city went down on 8/10 (36.09% decrease) and 8/19 (52.07% decrease), but went up on 8/27(7.84% increase)
       * 8/27/2018 is also a National Holiday for England, so the increase might come from effects of national holiday activities.
       * The lowest crime counts at the center of the city in August was on 8/19, when both home game (for Manchester City) and away game(for Manchester United) were held. 
+* Limitation of our analysis:
+  1. We can only got the daily crime data for August 2018, which is the first month of the 2018/2019 EPL season. There are only five game days (3 home, 3 away and 1 oerlap) in Manchester in August 2018, So we have limited data for our statitics analysis
+  2. 8/27 is also a national holiday in England. And we can not ruled out that the activities on national holiday will also affect the crime rate on that day. 
+  3. The hourly data depends on the time when crime were reported, not really the same time that crime occurred.
+  4. We have not compared our data with the data from other city, for lacking the daily crime data in othe cities in England. 
+
+* Files in the repository
+  * Manchester_EPL.ipynb : Parsing and cleaning the game day data to find games for Manchester teams (Manchester United and Manchester City)
+  * manchester_crime.ipynb: The crime analysis on game days and no game days.
+  * Resources folder: csv files for crime and game data
+     * EPL_season_1819.csv: game data for EPL 2018/2019 season
+     * final_manchester_crime_data.csv: crime data in August 2018
+     * final_manchester_crime_data_off_game.csv: crime data on no game days
+     * final_manchester_crime_data_home_game.csv: crime data on home game days
+     * final_manchester_crime_data_guest_game.csv: crime data on away game days
+  * Images folder: images generate from manchester_crime.ipynb, see the jupyter notebook for details. 
