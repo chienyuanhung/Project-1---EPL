@@ -53,7 +53,7 @@
     * Center of the city of Manchester
     ![](Images/Center_of_Manchester_3km.png)
       * Crime number at the center of the city went down on 8/10 (36.09% decrease) and 8/19 (52.07% decrease), but went up on 8/27(7.84% increase)
-      * 8/27/2018 is also a National Holiday for England, so the increase might come from effects of national holiday activities.
+      * 8/27/2018 is also a National Holiday in England, so the increase might come from effects of national holiday activities.
       * The lowest crime counts at the center of the city in August was on 8/19, when both home game (for Manchester City) and away game(for Manchester United) were held. 
 * Limitation of our analysis:
   1. We can only got the daily crime data for August 2018, which is the first month of the 2018/2019 EPL season. There are only five game days (3 home, 3 away and 1 oerlap) in Manchester in August 2018, So we have limited data for our statitics analysis
