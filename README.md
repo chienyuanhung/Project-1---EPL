@@ -62,7 +62,7 @@
   4. We have not compared our data with the data from other city, for lacking the daily crime data in othe cities in England. 
 
 * Files in the repository
-  * Manchester_EPL.ipynb : Parsing and cleaning the game day data to find games for Manchester teams (Manchester United and Manchester City)
+  * Manchester_EPL.ipynb : Parsing and cleaning the game day data to find games for Manchester teams (Manchester United and Manchester City). Analyzing the crime data on away game days
   * manchester_crime.ipynb: The crime analysis on game days and no game days.
   * manchester_home_games.ipynb : the analysis on home game days
   * Resources folder: csv files for crime and game data
