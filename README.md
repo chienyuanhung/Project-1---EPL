@@ -8,8 +8,8 @@
     https://datahub.io/sports-data/english-premier-league#resource-english-premier-league_zip
 
 * data cleaning
-   crime data: turned into Pandas DataFrame from a sql file, 5000 crimes were recorded bewteen Ausust 1 and 30 in 2018
-   game data: Manchester_EPL.ipynb
+   * crime data: turned into Pandas DataFrame from a sql file, 5000 crimes were recorded bewteen Ausust 1 and 30 in 2018
+   * game data: see Manchester_EPL.ipynb for cleaning 
 
 * Analysis
   * Overall crime counts on each day in August 2018
