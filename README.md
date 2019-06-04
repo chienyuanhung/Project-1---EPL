@@ -64,6 +64,7 @@
 * Files in the repository
   * Manchester_EPL.ipynb : Parsing and cleaning the game day data to find games for Manchester teams (Manchester United and Manchester City)
   * manchester_crime.ipynb: The crime analysis on game days and no game days.
+  * manchester_home_games.ipynb : the analysis on home game days
   * Resources folder: csv files for crime and game data
      * EPL_season_1819.csv: game data for EPL 2018/2019 season
      * final_manchester_crime_data.csv: crime data in August 2018
