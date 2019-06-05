@@ -17,11 +17,11 @@
     * Home games were held on August 10, 19, and 27
     * Away game were held on August 12, 19 and 25
     * Home game for Manchester City and guest game for Mancehster United on August 19
-    * Crimes went down on home game days; however, the only day that crimes went down 
+    * Crimes went down on home game days.
   * Statistics analysis
     * Average crimes on home game (home), away game (away) and no game (off) days
     ![](Images/crime_counts_general_comparison.png)
-      * The average crime on home game days (home) are 11.04% lower tha the crimes happened on the days without games (off)
+      * The average crime on home game days (home) are 11.04% lower than the crimes happened on the days without games (off)
       * the p-value for average crime on home game (home) and no game (off) days is 0.02766 < 0.05 
       * The p-value for average crime on away game (home) and no game (off) days is 0.780108 > 0.05, suggested that they are not statistically different.
       * We will focus on the difference between home game and off days for further analysis
