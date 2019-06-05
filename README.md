@@ -55,6 +55,13 @@
       * Crime number at the center of the city went down on 8/10 (36.09% decrease) and 8/19 (52.07% decrease), but went up on 8/27(7.84% increase)
       * 8/27/2018 is also a National Holiday in England, so the increase might come from effects of national holiday activities.
       * The lowest crime counts at the center of the city in August was on 8/19, when both home game (for Manchester City) and away game(for Manchester United) were held. 
+   * Hourly analysis of crimes on home game days
+    ![](Images/crime_by_hour_day3.png)
+      * We analyzed the hourly crime data on three home game days in August 2019.
+      * The figure here is the hourly crime change on one of the home game day. The red box indicates the game time
+      * In all three home games we found that the reported crimes went down after the half-time of the game.
+      * We also found that the reported crimes went up after the end of the games for all three games.
+
 * Limitation of our analysis:
   1. We can only got the daily crime data for August 2018, which is the first month of the 2018/2019 EPL season. There are only five game days (3 home, 3 away and 1 oerlap) in Manchester in August 2018, So we have limited data for our statitics analysis
   2. 8/27 is also a national holiday in England. And we can not ruled out that the activities on national holiday will also affect the crime rate on that day. 
@@ -63,7 +70,7 @@
 
 * Files in the repository
   * Manchester_EPL.ipynb : Parsing and cleaning the game day data to find games for Manchester teams (Manchester United and Manchester City). Analyzing the crime data on away game days
-  * manchester_crime.ipynb: The crime analysis on game days and no game days.
+  * manchester_crime.ipynb: The main program for analyzing crims on game days and no game days. Programs for create charts (csv files) and graphs. 
   * manchester_home_games.ipynb : the analysis on home game days
   * Resources folder: csv files for crime and game data
      * EPL_season_1819.csv: game data for EPL 2018/2019 season
@@ -71,4 +78,4 @@
      * final_manchester_crime_data_off_game.csv: crime data on no game days
      * final_manchester_crime_data_home_game.csv: crime data on home game days
      * final_manchester_crime_data_guest_game.csv: crime data on away game days
-  * Images folder: images generate from manchester_crime.ipynb, see the jupyter notebook for details. 
+  * Images folder: images generating from manchester_crime.ipynb, see the jupyter notebook manchester_crime.ipynb  for details. 
