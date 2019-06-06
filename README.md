@@ -79,3 +79,4 @@
      * final_manchester_crime_data_home_game.csv: crime data on home game days
      * final_manchester_crime_data_guest_game.csv: crime data on away game days
   * Images folder: images generating from manchester_crime.ipynb, see the jupyter notebook manchester_crime.ipynb  for details. 
+  * Manchester Crime Data.pptx : power point presentation
